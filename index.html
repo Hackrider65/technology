@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head> 
+       <meta charset="UTF-8">    
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="style.css" />
+      <title>
+      Technology 
+      </title>
+        </head>
+<body>
+    <section class="showcase">
+        <header>
+          <h2 class="logo">Technology</h2>
+          <div class="toggle"></div>
+        </header>
+        <video src="pexels-pavel-danilyuk-8084614.mp4" muted loop autoplay></video>
+        <div class="overlay"></div>
+        <div class="text">
+          <h2>We're changing the </h2> 
+          <h3> world with technology</h3>
+          <p>Technology is a necessity of the modern lifestyle. Every day there are new ideas and advancements in the technology as the world becomes more involved in discovering and utilizing the potential of natural resources. Technology has improved human lives significantly by providing convenience and efficiency. It has made easily possible for us to access education, communication, medicine, transportation, sports, etc..</p>
+          <a href="#">Explore</a>
+          <script>
+            const menuToggle = document.querySelector('.toggle');
+        const showcase = document.querySelector('.showcase');
+    
+        menuToggle.addEventListener('click', () => {
+          menuToggle.classList.toggle('active');
+          showcase.classList.toggle('active');
+        })
+        </script>
+        </div>
+        <ul class="social">
+          <li><a href="https://www.facebook.com/"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+          <li><a href="https://twitter.com/i/flow/login"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+          <li><a href="https://www.instagram.com/accounts/login/"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+        </ul>
+      </section>
+      <div class="menu">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Destination</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
